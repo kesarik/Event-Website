@@ -1,0 +1,66 @@
+.events-title {
+  text-align: center;           /* Center the title */
+  margin: 20px 0;              /* Space above and below */
+  font-size: 2rem;             /* Larger font size */
+  color: #333;                 /* Dark color for contrast */
+}
+
+.event-cards {
+  display: flex;                /* Flexbox layout */
+  flex-wrap: wrap;             /* Wrap cards to new lines */
+  justify-content: center;      /* Center the cards */
+  gap: 20px;                   /* Space between cards */
+  margin: 0 20px;              /* Margin around the card container */
+}
+
+.event-card {
+  background-color: #f9f9f9;   /* Light background for cards */
+  border: 1px solid #ddd;      /* Light border */
+  border-radius: 8px;          /* Rounded corners */
+  padding: 20px;               /* Padding inside the card */
+  width: 300px;                /* Fixed width for cards */
+  text-align: center;          /* Center text in cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.event-card h2 {
+  color: #333;                 /* Dark text for headings */
+  margin-bottom: 10px;        /* Space below heading */
+}
+
+.event-card p {
+  color: #555;                 /* Gray text for descriptions */
+}
+.button-container {
+  display: flex;                /* Use flexbox for button alignment */
+  justify-content: center;      /* Center buttons */
+  gap: 10px;                   /* Space between buttons */
+  margin-top: 10px;            /* Space above buttons */
+}
+
+.interested-button,
+.not-interested-button {
+  padding: 10px 15px;          /* Padding inside buttons */
+  border-radius: 5px;          /* Rounded corners */
+  cursor: pointer;              /* Pointer cursor */
+}
+
+.interested-button {
+  background-color: #007bff;   /* Blue background */
+  color: white;                 /* White text */
+  border: none;                 /* Remove border */
+}
+
+.not-interested-button {
+  background-color:  #007bff;   /* Red background */
+  color: white;                 /* White text */
+  border: none;                 /* Remove border */
+}
+
+.interested-button:hover {
+  background-color: #0056b3;    /* Darker blue on hover */
+}
+
+.not-interested-button:hover {
+  background-color: #63a9f3;;    /* Darker red on hover */
+}

@@ -1,0 +1,29 @@
+nav {
+    background-color: #333;  /* Dark background */
+    padding: 10px 20px;      /* Spacing around the nav */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
+  }
+  
+  ul {
+    list-style: none;         /* Remove default list styling */
+    display: flex;            /* Horizontal layout */
+    justify-content: space-around; /* Evenly spaced items */
+    margin: 0;               /* Remove default margin */
+    padding: 0;              /* Remove default padding */
+  }
+  
+  li {
+    margin: 0 15px;          /* Space between items */
+  }
+  
+  a {
+    text-decoration: none;    /* Remove underline */
+    color: white;            /* White text */
+    font-weight: bold;       /* Bold text */
+    transition: color 0.3s;  /* Smooth color transition */
+  }
+  
+  a:hover {
+    color: #ffcc00;          /* Change color on hover */
+  }
+  
